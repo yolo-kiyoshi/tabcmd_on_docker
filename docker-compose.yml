@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  tabcmd:
+    build: ./
+    tty: true
+    container_name: tabcmd
+    image: tabcmd
+    volumes:
+    - ./sh:/var
+
